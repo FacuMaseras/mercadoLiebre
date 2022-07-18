@@ -1,6 +1,6 @@
 const express = require('express');
 const server = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const start = () => console.log('Starting server...');
 server.listen(port, start());

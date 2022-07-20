@@ -124,6 +124,12 @@ main{
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: 450ms;
+}
+
+.estilo-de-camion:hover{
+    transform: rotate(-90deg)
+
 }
 
 picture img{
